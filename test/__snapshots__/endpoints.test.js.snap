@@ -2,7 +2,7 @@
 
 exports[`lib/endpoints.js #getEndpoint() should return the EU es_ES endpoint 1`] = `
 Object {
-  "hostname": "https://eu.api.battle.net",
+  "hostname": "https://eu.api.blizzard.com",
   "locale": "es_ES",
   "origin": "eu",
 }
@@ -18,7 +18,7 @@ Object {
 
 exports[`lib/endpoints.js #getEndpoint() should return the US endpoint 1`] = `
 Object {
-  "hostname": "https://us.api.battle.net",
+  "hostname": "https://us.api.blizzard.com",
   "locale": "en_US",
   "origin": "us",
 }
@@ -26,7 +26,7 @@ Object {
 
 exports[`lib/endpoints.js #getEndpoint() should return the default endpoint 1`] = `
 Object {
-  "hostname": "https://us.api.battle.net",
+  "hostname": "https://us.api.blizzard.com",
   "locale": "en_US",
   "origin": "us",
 }

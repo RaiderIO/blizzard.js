@@ -48,7 +48,7 @@ describe('lib/blizzard.js', () => {
 
       expect(blizzard.axios.get).toHaveBeenCalledTimes(1);
       expect(blizzard.axios.get).toHaveBeenCalledWith(
-        'https://us.api.battle.net/wow/character/proudmoore/kailee',
+        'https://us.api.blizzard.com/wow/character/proudmoore/kailee',
         expect.any(Object)
       );
     });
@@ -74,7 +74,7 @@ describe('lib/blizzard.js', () => {
 
       expect(blizzard.axios.get).toHaveBeenCalledTimes(1);
       expect(blizzard.axios.get).toHaveBeenCalledWith(
-        'https://eu.api.battle.net/wow/character/proudmoore/kailee',
+        'https://eu.api.blizzard.com/wow/character/proudmoore/kailee',
         expect.any(Object)
       );
     });
