@@ -28,14 +28,7 @@ describe('lib/data.js', () => {
 
       expect(blizzard.axios.post).toHaveBeenCalledTimes(1);
       expect(blizzard.axios.post).toHaveBeenCalledWith(
-        'https://us.battle.net/oauth/token',
-        expect.objectContaining({
-          params: {
-            grant_type: 'client_credentials',
-            client_id: 'id',
-            client_secret: 'secret',
-          },
-        })
+        'https://us.battle.net/oauth/token?grant_type=client_credentials&client_id=id&client_secret=secret'
       );
     });
   });

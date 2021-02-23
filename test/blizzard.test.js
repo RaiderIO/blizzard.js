@@ -100,8 +100,7 @@ describe('lib/blizzard.js', () => {
 
       expect(blizzard.axios.post).toHaveBeenCalledTimes(1);
       expect(blizzard.axios.post).toHaveBeenCalledWith(
-        'https://us.battle.net/oauth/token',
-        expect.any(Object)
+        'https://us.battle.net/oauth/token?grant_type=&client_id=&client_secret='
       );
     });
   });
