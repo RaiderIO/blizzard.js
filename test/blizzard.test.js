@@ -98,8 +98,8 @@ describe('lib/blizzard.js', () => {
     test('should be called with the correct parameters', () => {
       blizzard.fetchToken('us', {});
 
-      expect(blizzard.axios.get).toHaveBeenCalledTimes(1);
-      expect(blizzard.axios.get).toHaveBeenCalledWith(
+      expect(blizzard.axios.post).toHaveBeenCalledTimes(1);
+      expect(blizzard.axios.post).toHaveBeenCalledWith(
         'https://us.battle.net/oauth/token',
         expect.any(Object)
       );

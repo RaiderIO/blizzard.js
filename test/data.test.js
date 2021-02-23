@@ -26,8 +26,8 @@ describe('lib/data.js', () => {
         secret: 'secret',
       });
 
-      expect(blizzard.axios.get).toHaveBeenCalledTimes(1);
-      expect(blizzard.axios.get).toHaveBeenCalledWith(
+      expect(blizzard.axios.post).toHaveBeenCalledTimes(1);
+      expect(blizzard.axios.post).toHaveBeenCalledWith(
         'https://us.battle.net/oauth/token',
         expect.objectContaining({
           params: {

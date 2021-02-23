@@ -3,6 +3,9 @@ const axios = {
     get: jest.fn(
       url => new Promise(_ => _(url))
     ),
+    post: jest.fn(
+      url => new Promise(_ => _(url))
+    ),
     all: jest.fn(),
   })),
 };
