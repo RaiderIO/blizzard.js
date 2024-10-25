@@ -28,15 +28,15 @@
   },
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.28.0"
   },
   "devDependencies": {
     "codecov": "^3.1.0",
     "docdash": "~1.0.0",
     "eslint": "^5.0.0",
     "eslint-plugin-jest": "^22.0.0",
-    "jest": "^23.6.0",
-    "jsdoc": "^3.5.5"
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.4"
   },
   "engines": {
     "node": ">=6.0.0"
